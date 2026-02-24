@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: The Silent Planet
+title: The Silence Between Stars
 ---
 
 <!--
@@ -9,11 +9,11 @@ Model: ChatGPT
 Prompt: "Write a blog post from the perspective of a lone human interstellar explorer."
 -->
 
-<img alt="Astronaut observing asteroid field in deep space" src="/images/blog1.png" height="500"/>
-
 # Log 1: The Silence Between Stars
 
 {% mission 'Day 1,842' 'Location: Deep Interstellar Space, Perseus Arm (Uncharted Sector)' %}
+
+<img class="post-hero" alt="Astronaut observing asteroid field in deep space" src="/images/blog1.png"/>
 
 There’s a kind of silence out here that isn’t just the absence of sound — it’s the absence of expectation. No wind. No distant engines. No hum of civilisation layered beneath everything like white noise. Just the faint vibration of the ship’s life-support systems and the occasional crackle of cosmic radiation against the hull.
 

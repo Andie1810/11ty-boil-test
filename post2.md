@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: Signals in the Dark
+title: The Planet That Shouldn’t Exist
 ---
 
 <!--
@@ -9,11 +9,11 @@ Model: ChatGPT
 Prompt: "Write a second blog post from the perspective of a lone human interstellar explorer."
 -->
 
-<img alt="Astronaut on an alien twilight world" src="/images/blog2.png" height="500"/>
-
 # Log 2: The Planet That Shouldn’t Exist
 
 {% mission 'Day 2,019' 'Location: Orbit of Unclassified Terrestrial Planet, Outer Perseus Arm' %}
+
+<img class="post-hero" alt="Astronaut on an alien twilight world" src="/images/blog2.png"/>
 
 I wasn’t supposed to find a habitable world this far from any stable star.
 

@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Unbounded:wght@400;600&display=swap');
+
+:root {
+    --main-bg-color: #1B1B1E;
+    --primary-text-color: #A9BCD0;
+    --accent-color: #373F51;
+}
+
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: 'Space Mono', sans-serif;
+    color: var(--primary-text-color);
+    background: var(--main-bg-color);
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
-    margin: 40px auto 0 auto;
+    margin: 10px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
+    background: var(--accent-color);
 }
 
 nav ul {
@@ -28,21 +36,117 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: var(--primary-text-color);
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 nav ul li a:hover {
-    opacity: 0.6;
+    color: var(--main-bg-color);
 }
 
 header {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
     text-align: center;
     padding-top: 20px;
-    font-size: 3em
+    font-size: 3em;
+    text-transform: uppercase;
 }
 
-img.about {
-    opacity: 0.5;
+h1 {
+    margin: 30px auto;
+}
+
+h2 {
+    margin-top: 60px;
+    font-size: 2.5em;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+}
+
+main p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: var(--primary-text-color);
+    font-size: 1.1em;
+    line-height: 1.5em;
+    opacity: 0.8;
+}
+
+.post-list {
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--accent-color);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.post-card img {
+    height: 140px;
+    border-radius: 10px;
+}
+
+.post-card h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.2em;
+}
+
+.post-card h3 a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.post-card h3 a:hover {
+    color: var(--main-bg-color);
+}
+
+.post-card p {
+    margin: 0;
+    font-size: 1em;
+    color: var(--primary-text-color);
+    line-height: 1.4;
+}
+
+.post-hero {
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 10px 0 30px 0;
+}
+
+main h1{
+    font-size: 2.5em;
+    margin: 60px 0 10px 0;
+    text-align: center;
+}
+
+.mission {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: var(--primary-text-color);
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+
+footer {
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    color: var(--primary-text-color);
+    font-size: 0.7em;
+    border-top: 1px solid var(--accent-color);
 }
